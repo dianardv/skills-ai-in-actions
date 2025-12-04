@@ -2,7 +2,7 @@ name: Issue Completeness
 
 on:
   issues:
-    types: [opened]
+    types: [opened, updated]
 permissions:
   models: read
   issues: write
