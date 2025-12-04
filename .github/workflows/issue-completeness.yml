@@ -35,7 +35,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
           body: ${{ steps.ai-response.outputs.response }}
-            Body:
             ---
             ${{ github.event.issue.body }}
             ---
